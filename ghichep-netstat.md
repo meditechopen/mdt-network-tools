@@ -1,5 +1,7 @@
 # Sử dụng lệnh netstat
 
+Tài liệu sẽ được cập nhật thêm...
+
 ### Sử dụng netstat để lọc các port udp
 ```sh
 netstat -au
@@ -19,6 +21,16 @@ netstat -at
 <li>a: all - tất cả các kết nối trên hệ thống</li>
 <li>t: tcp - các kết nối sử dụng giao thức tcp</li>
 </ul>
+
+<ul>
+<li>Proto: Tên giao thức</li>
+<li>Recv-Q:</li>
+<li>Send-Q:</li>
+<li>Local Address: Địa chỉ IP của hệ thống và port kết nối</li>
+<li>Foreign Address: Địa chỉ dịch vụ đang được kết nối đến và số port</li>
+<li>State: Trạng thái port</li>
+</ul>
+
 
 <img src="http://i.imgur.com/9qd8IsP.png">
 
